@@ -5,6 +5,7 @@ yarn.lock
 pnpm-lock.yaml
 
 # Environment variables
+*.md
 .env
 .env.example
 .env.local
