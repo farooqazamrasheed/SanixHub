@@ -1,0 +1,295 @@
+/* Print Styles for Orders and Invoices */
+
+@media print {
+  /* Hide navigation and non-essential elements */
+  nav,
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+
+  /* Reset page margins */
+  @page {
+    margin: 0.5cm;
+    size: A4;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: white;
+  }
+
+  /* Container adjustments */
+  .container-custom {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Print sections */
+  .print-section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 1rem;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  /* Show print-only elements */
+  .print-only {
+    display: block !important;
+  }
+
+  /* Typography for print */
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+    color: #000;
+  }
+
+  h1 {
+    font-size: 24pt;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-size: 18pt;
+    margin-bottom: 0.5rem;
+  }
+
+  h3 {
+    font-size: 14pt;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Table styles for print */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+
+  table th,
+  table td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+
+  table th {
+    background-color: #f3f4f6;
+    font-weight: bold;
+  }
+
+  /* Colors for print */
+  .text-primary-600,
+  .text-primary-700 {
+    color: #059669 !important;
+  }
+
+  .bg-primary-600,
+  .bg-primary-700 {
+    background-color: #059669 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .bg-blue-100 {
+    background-color: #dbeafe !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .bg-green-100 {
+    background-color: #d1fae5 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .bg-red-100 {
+    background-color: #fee2e2 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .bg-gray-100 {
+    background-color: #f3f4f6 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Status badges */
+  .status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+    page-break-inside: avoid;
+  }
+
+  /* QR Code and Barcode */
+  .qr-code-print,
+  .barcode-print {
+    page-break-inside: avoid;
+    margin: 1rem 0;
+  }
+
+  /* Company header for print */
+  .print-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #059669;
+  }
+
+  .print-logo {
+    max-width: 150px;
+    max-height: 80px;
+  }
+
+  .print-company-info {
+    text-align: right;
+  }
+
+  /* Invoice specific styles */
+  .invoice-title {
+    font-size: 28pt;
+    font-weight: bold;
+    color: #059669;
+    margin-bottom: 1rem;
+  }
+
+  .invoice-section {
+    margin-bottom: 1.5rem;
+  }
+
+  .invoice-section-title {
+    font-size: 14pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #059669;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* Order items table */
+  .order-items-table {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .order-items-table th {
+    background-color: #059669 !important;
+    color: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .order-items-table tr:nth-child(even) {
+    background-color: #f9fafb !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Totals section */
+  .totals-section {
+    margin-top: 1rem;
+    text-align: right;
+  }
+
+  .total-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.25rem;
+  }
+
+  .total-label {
+    min-width: 150px;
+    text-align: right;
+    padding-right: 1rem;
+    font-weight: 600;
+  }
+
+  .total-value {
+    min-width: 120px;
+    text-align: right;
+    font-weight: 600;
+  }
+
+  .grand-total {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 2px solid #059669;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #059669;
+  }
+
+  /* Footer */
+  .print-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+    font-size: 10pt;
+    color: #666;
+  }
+
+  /* Page breaks */
+  .page-break {
+    page-break-after: always;
+  }
+
+  .no-page-break {
+    page-break-inside: avoid;
+  }
+
+  /* Avoid breaking these elements */
+  .customer-info,
+  .order-summary,
+  .payment-info {
+    page-break-inside: avoid;
+  }
+}
+
+/* Screen-only styles for print preview */
+.print-only {
+  display: none;
+}
+
+@media screen {
+  .print-preview {
+    max-width: 21cm; /* A4 width */
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}

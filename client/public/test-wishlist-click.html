@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist Click Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #4F46E5;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f9fafb;
+            border-radius: 8px;
+            border-left: 4px solid #4F46E5;
+        }
+        button {
+            background: #4F46E5;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+        button:hover {
+            background: #4338CA;
+        }
+        .result {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+        .success {
+            background: #D1FAE5;
+            color: #065F46;
+        }
+        .error {
+            background: #FEE2E2;
+            color: #991B1B;
+        }
+        pre {
+            background: #1f2937;
+            color: #10b981;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🔍 Wishlist Click Diagnostic Tool</h1>
+        <p>This tool will help identify why the heart icon isn't working.</p>
+
+        <div class="test-section">
+            <h3>📋 Test Checklist</h3>
+            <button onclick="runAllTests()">▶ Run All Tests</button>
+            <div id="results"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>📸 Console Capture</h3>
+            <button onclick="captureConsole()">Capture Console Errors</button>
+            <div id="console-capture"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>🔗 Direct API Test</h3>
+            <button onclick="testWishlistAPI()">Test Wishlist API</button>
+            <div id="api-test"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>📝 Instructions</h3>
+            <ol>
+                <li>Click "Run All Tests" above</li>
+                <li>Copy the results and send to me</li>
+                <li>Go back to the products page</li>
+                <li>Try clicking the heart icon</li>
+                <li>Come back here and click "Capture Console Errors"</li>
+                <li>Send me those results too</li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:5000/api';
+        const results = [];
+
+        function log(message, type = 'info') {
+            results.push({ message, type, timestamp: new Date().toISOString() });
+        }
+
+        function displayResults() {
+            const html = results.map(r => 
+                `<div class="result ${r.type}">[${new Date(r.timestamp).toLocaleTimeString()}] ${r.message}</div>`
+            ).join('');
+            document.getElementById('results').innerHTML = html;
+        }
+
+        async function runAllTests() {
+            results.length = 0;
+            document.getElementById('results').innerHTML = '<div class="result">Running tests...</div>';
+
+            // Test 1: Check if logged in
+            log('TEST 1: Checking authentication...', 'info');
+            const token = localStorage.getItem('accessToken');
+            const authData = localStorage.getItem('auth-storage');
+            
+            if (!token) {
+                log('❌ No access token found - User NOT logged in', 'error');
+            } else {
+                log('✅ Access token found', 'success');
+            }
+
+            if (authData) {
+                try {
+                    const parsed = JSON.parse(authData);
+                    if (parsed.state?.isAuthenticated) {
+                        log('✅ User is authenticated', 'success');
+                        log(`   User: ${parsed.state.user?.email || 'Unknown'}`, 'info');
+                    } else {
+                        log('❌ User not authenticated in state', 'error');
+                    }
+                } catch (e) {
+                    log('❌ Error parsing auth data', 'error');
+                }
+            }
+
+            // Test 2: Check local storage wishlist
+            log('TEST 2: Checking local storage wishlist...', 'info');
+            const wishlistData = localStorage.getItem('wishlist-storage');
+            if (wishlistData) {
+                try {
+                    const parsed = JSON.parse(wishlistData);
+                    const items = parsed.state?.items || [];
+                    log(`✅ Local wishlist has ${items.length} items`, 'success');
+                    if (items.length > 0) {
+                        log(`   Items: ${items.map(i => i.name).join(', ')}`, 'info');
+                    }
+                } catch (e) {
+                    log('❌ Error parsing wishlist data', 'error');
+                }
+            } else {
+                log('ℹ️ No local wishlist data', 'info');
+            }
+
+            // Test 3: Check backend connection
+            log('TEST 3: Checking backend connection...', 'info');
+            try {
+                const response = await fetch('http://localhost:5000/health');
+                if (response.ok) {
+                    log('✅ Backend server is running', 'success');
+                } else {
+                    log('❌ Backend server error: ' + response.status, 'error');
+                }
+            } catch (error) {
+                log('❌ Cannot connect to backend: ' + error.message, 'error');
+            }
+
+            // Test 4: Check frontend is on correct port
+            log('TEST 4: Checking frontend URL...', 'info');
+            log(`   Current URL: ${window.location.origin}`, 'info');
+            if (window.location.port === '3000') {
+                log('✅ Frontend on correct port (3000)', 'success');
+            } else {
+                log('⚠️ Frontend not on port 3000', 'error');
+            }
+
+            // Test 5: Check if wishlist API endpoint exists
+            log('TEST 5: Testing wishlist API endpoint...', 'info');
+            if (token) {
+                try {
+                    const response = await fetch(`${API_URL}/wishlist`, {
+                        headers: { 'Authorization': `Bearer ${token}` }
+                    });
+                    if (response.ok) {
+                        const data = await response.json();
+                        log('✅ Wishlist API endpoint working', 'success');
+                        log(`   Backend wishlist has ${data.data?.wishlist?.items?.length || 0} items`, 'info');
+                    } else {
+                        log(`❌ Wishlist API error: ${response.status}`, 'error');
+                    }
+                } catch (error) {
+                    log('❌ Wishlist API request failed: ' + error.message, 'error');
+                }
+            } else {
+                log('⚠️ Cannot test API - not logged in', 'error');
+            }
+
+            displayResults();
+        }
+
+        function captureConsole() {
+            const consoleDiv = document.getElementById('console-capture');
+            consoleDiv.innerHTML = `
+                <div class="result">
+                    <strong>Console capture ready!</strong><br><br>
+                    Please:<br>
+                    1. Open browser console (F12)<br>
+                    2. Copy ALL messages (especially RED errors)<br>
+                    3. Paste them here or send to developer<br><br>
+                    <strong>Look for errors like:</strong><br>
+                    - "Cannot read property..."<br>
+                    - "Module not found..."<br>
+                    - "Unexpected token..."<br>
+                    - Any RED text messages
+                </div>
+            `;
+        }
+
+        async function testWishlistAPI() {
+            const apiDiv = document.getElementById('api-test');
+            apiDiv.innerHTML = '<div class="result">Testing API...</div>';
+
+            const token = localStorage.getItem('accessToken');
+            if (!token) {
+                apiDiv.innerHTML = '<div class="result error">❌ Please login first!</div>';
+                return;
+            }
+
+            try {
+                // Try to fetch wishlist
+                const response = await fetch(`${API_URL}/wishlist`, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    const itemCount = data.data?.wishlist?.items?.length || 0;
+                    apiDiv.innerHTML = `
+                        <div class="result success">
+                            ✅ API Working!<br>
+                            Backend wishlist has ${itemCount} items
+                        </div>
+                        <pre>${JSON.stringify(data, null, 2)}</pre>
+                    `;
+                } else {
+                    apiDiv.innerHTML = `
+                        <div class="result error">
+                            ❌ API Error: ${response.status}<br>
+                            ${data.message || 'Unknown error'}
+                        </div>
+                        <pre>${JSON.stringify(data, null, 2)}</pre>
+                    `;
+                }
+            } catch (error) {
+                apiDiv.innerHTML = `
+                    <div class="result error">
+                        ❌ Request Failed: ${error.message}
+                    </div>
+                `;
+            }
+        }
+
+        // Auto-run tests on load
+        window.onload = () => {
+            setTimeout(runAllTests, 500);
+        };
+    </script>
+</body>
+</html>

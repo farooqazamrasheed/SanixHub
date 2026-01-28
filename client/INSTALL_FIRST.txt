@@ -1,0 +1,26 @@
+⚠️ IMPORTANT: DEPENDENCIES NOT INSTALLED YET ⚠️
+
+The package.json has been updated with the new dependencies, but they haven't been installed yet.
+
+YOU MUST RUN THIS COMMAND:
+
+1. Open a terminal/command prompt
+2. Navigate to the client folder:
+   cd client
+
+3. Run ONE of these commands:
+   
+   npm install
+   
+   OR
+   
+   npm install @react-pdf/renderer react-qr-code react-barcode
+
+4. Wait for installation to complete
+
+5. Restart your dev server:
+   npm run dev
+
+Then the PDF features will work! 
+
+The error "Module not found: Can't resolve '@react-pdf/renderer'" will go away once you install the dependencies.

@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "about": "About Us",
+    "contact": "Contact",
+    "login": "Login",
+    "logout": "Logout",
+    "profile": "My Profile",
+    "orders": "My Orders",
+    "admin": "Admin Dashboard"
+  },
+  "footer": {
+    "description": "Your trusted supplier for premium sanitary and plumbing products across Pakistan.",
+    "quickLinks": "Quick Links",
+    "about": "About Us",
+    "products": "Products",
+    "categories": "Categories",
+    "contact": "Contact Us",
+    "customerService": "Customer Service",
+    "faq": "FAQ",
+    "shipping": "Shipping Info",
+    "returns": "Returns",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "contactUs": "Contact Us",
+    "rights": "All rights reserved."
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "continueShopping": "Continue Shopping"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "inStock": "In Stock",
+    "viewDetails": "View Details"
+  }
+}

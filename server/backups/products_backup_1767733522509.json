@@ -1,0 +1,1008 @@
+[
+  {
+    "_id": "6952de28f689fd8efab88013",
+    "name": {
+      "en": "Spindle",
+      "ur": "مورہ"
+    },
+    "slug": "spindle-brass",
+    "sku": "BRASS-0001",
+    "description": {
+      "en": "Local Spindle made up of Brass",
+      "ur": "براس کا مورہ"
+    },
+    "shortDescription": {
+      "en": "Local Spindle",
+      "ur": "عام مورہ"
+    },
+    "category": "6952d854f689fd8efab87fe4",
+    "pricing": {
+      "basePrice": 164,
+      "salePrice": 160,
+      "discount": 2,
+      "taxRate": 0
+    },
+    "specifications": [],
+    "images": [
+      {
+        "url": "http://localhost:5000/uploads/products/images-1767038234911-35098962.webp",
+        "isPrimary": true,
+        "_id": "6952de28f689fd8efab88014"
+      }
+    ],
+    "dimensions": {
+      "length": 7,
+      "width": 2,
+      "height": 7,
+      "weight": 50,
+      "unit": "g"
+    },
+    "tags": [
+      "Moora",
+      "moora",
+      "Mura",
+      "morah",
+      "moorah",
+      "spindle",
+      "brass spindle",
+      "spindle brass",
+      "local spindle",
+      "bib cock spindle"
+    ],
+    "brand": "Local",
+    "manufacturer": "Baba Mora",
+    "origin": "Pakistan",
+    "inventory": {
+      "stockQuantity": 89,
+      "lowStockThreshold": 20,
+      "allowBackorder": false,
+      "trackInventory": true
+    },
+    "seo": {
+      "metaTitle": {
+        "en": "spindle",
+        "ur": "مورا"
+      },
+      "metaDescription": {
+        "en": "local spindle",
+        "ur": "عام مورا"
+      },
+      "keywords": [
+        "Moora",
+        "moora",
+        "Mura",
+        "morah",
+        "moorah",
+        "spindle",
+        "brass spindle",
+        "spindle brass",
+        "local spindle",
+        "bib cock spindle"
+      ]
+    },
+    "stats": {
+      "viewCount": 5,
+      "orderCount": 2,
+      "rating": 0,
+      "reviewCount": 0,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "isActive": true,
+    "isFeatured": false,
+    "isNewProduct": false,
+    "createdAt": "2025-12-29T20:01:44.085Z",
+    "updatedAt": "2026-01-06T13:08:56.550Z",
+    "__v": 0,
+    "productId": "PRD-20251229-0001"
+  },
+  {
+    "_id": "6952e00ef689fd8efab8801f",
+    "name": {
+      "en": "China Muslim Shower Body CP",
+      "ur": "چائنہ مسلم شاور باڈی سی پی"
+    },
+    "slug": "china-muslim-shower-body-cp",
+    "sku": "CHINA-CP-BODY-0001",
+    "description": {
+      "en": "China Muslim Shower Body CP import from China",
+      "ur": "چائنہ مسلم شاور باڈی سی پی چین سے درآمد کی جاتی ہے۔"
+    },
+    "shortDescription": {
+      "en": "",
+      "ur": ""
+    },
+    "category": "6952d9e9f689fd8efab87fe9",
+    "pricing": {
+      "basePrice": 156,
+      "salePrice": 144,
+      "discount": 8,
+      "taxRate": 0
+    },
+    "specifications": [],
+    "images": [
+      {
+        "url": "http://localhost:5000/uploads/products/images-1767038818037-836656499.webp",
+        "isPrimary": true,
+        "_id": "6952e00ef689fd8efab88020"
+      }
+    ],
+    "dimensions": {
+      "length": 17,
+      "width": 4,
+      "height": 17,
+      "weight": 60,
+      "unit": "g"
+    },
+    "tags": [
+      "China Muslim Shower Body CP",
+      "muslim body",
+      "body",
+      "cp body"
+    ],
+    "brand": "China",
+    "manufacturer": "China",
+    "origin": "China",
+    "inventory": {
+      "stockQuantity": 15,
+      "lowStockThreshold": 5,
+      "allowBackorder": false,
+      "trackInventory": true
+    },
+    "seo": {
+      "metaTitle": {
+        "en": "cp body",
+        "ur": "باڈی سی پی"
+      },
+      "metaDescription": {
+        "en": "China Muslim Shower Body CP import from China",
+        "ur": "چائنہ مسلم شاور باڈی سی پی"
+      },
+      "keywords": [
+        "China Muslim Shower Body CP",
+        "muslim body",
+        "body",
+        "cp body"
+      ]
+    },
+    "stats": {
+      "viewCount": 8,
+      "orderCount": 3,
+      "rating": 0,
+      "reviewCount": 0,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "isActive": true,
+    "isFeatured": false,
+    "isNewProduct": false,
+    "createdAt": "2025-12-29T20:09:50.603Z",
+    "updatedAt": "2026-01-06T13:08:56.727Z",
+    "__v": 0,
+    "productId": "PRD-20251229-0002"
+  },
+  {
+    "_id": "6952e7dd2ef0fa4e60052cbb",
+    "name": {
+      "en": "Bib Cock CP Diamond Head",
+      "ur": "بِب کاک سی پی ڈائمنڈ ہیڈ"
+    },
+    "slug": "bib-cock-cp-diamond-head",
+    "sku": "RBS-BRASS-0001",
+    "description": {
+      "en": "Bib Cock CP Diamond Head, it is from the RBS brand or company bibcock with 2 year warranty.",
+      "ur": "بِب کاک سی پی ڈائمنڈ ہیڈ، آر بی ایس برانڈ کی پراڈکٹ ہے، جس پر 2 سال کی وارنٹی ہے۔"
+    },
+    "shortDescription": {
+      "en": "",
+      "ur": ""
+    },
+    "category": "6952d854f689fd8efab87fe4",
+    "pricing": {
+      "basePrice": 1481,
+      "salePrice": 1385,
+      "discount": 6,
+      "taxRate": 0
+    },
+    "specifications": [],
+    "images": [
+      {
+        "url": "http://localhost:5000/uploads/products/images-1767040708180-817749206.webp",
+        "isPrimary": true,
+        "_id": "6952e7dd2ef0fa4e60052cbc"
+      }
+    ],
+    "dimensions": {
+      "length": 12,
+      "width": 5,
+      "height": 17,
+      "weight": 330,
+      "unit": "g"
+    },
+    "tags": [
+      "Bib Cock CP Diamond Head",
+      "Bib cock",
+      "cp bib cock",
+      "rbs"
+    ],
+    "brand": "RBS",
+    "manufacturer": "Gujrawala",
+    "origin": "Pakistan",
+    "inventory": {
+      "stockQuantity": 14,
+      "lowStockThreshold": 5,
+      "allowBackorder": false,
+      "trackInventory": true
+    },
+    "seo": {
+      "metaTitle": {
+        "en": "Bib Cock CP",
+        "ur": "بِب کاک سی پی"
+      },
+      "metaDescription": {
+        "en": "Bib Cock CP Diamond Head",
+        "ur": "بِب کاک سی پی ڈائمنڈ ہیڈ"
+      },
+      "keywords": [
+        "Bib Cock CP Diamond Head",
+        "Bib cock",
+        "cp bib cock",
+        "rbs"
+      ]
+    },
+    "stats": {
+      "viewCount": 23,
+      "orderCount": 4,
+      "rating": 5,
+      "reviewCount": 0,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      }
+    },
+    "isActive": true,
+    "isFeatured": false,
+    "isNewProduct": false,
+    "createdAt": "2025-12-29T20:43:09.756Z",
+    "updatedAt": "2026-01-06T13:08:56.900Z",
+    "__v": 0,
+    "productId": "PRD-20251229-0003"
+  },
+  {
+    "_id": "6953c7a944383e6d58d4ff66",
+    "name": {
+      "en": "Non Return Valve",
+      "ur": "نان ریٹرن وال"
+    },
+    "slug": "non-return-valve",
+    "sku": "RBS-BRASS-0002",
+    "description": {
+      "en": "Non Return Valve, it is very effective to stop reverse water.",
+      "ur": "نان ریٹرن وال، جو پانی کے الٹے بہاؤ کو مؤثر طریقے سے روکنے کے لیے استعمال ہوتا ہے۔"
+    },
+    "shortDescription": {
+      "en": "",
+      "ur": ""
+    },
+    "category": "6952d854f689fd8efab87fe4",
+    "pricing": {
+      "basePrice": 1464,
+      "salePrice": 1394,
+      "discount": 5,
+      "taxRate": 0
+    },
+    "specifications": [],
+    "images": [
+      {
+        "url": "http://localhost:5000/uploads/products/images-1767098272516-36955784.webp",
+        "isPrimary": true,
+        "_id": "6953c7a944383e6d58d4ff67"
+      }
+    ],
+    "dimensions": {
+      "length": 10,
+      "width": 5,
+      "height": 16,
+      "weight": 200,
+      "unit": "g"
+    },
+    "tags": [
+      "non return valve"
+    ],
+    "brand": "RBS",
+    "manufacturer": "Gujrawala",
+    "origin": "Pakistan",
+    "size": "3/4",
+    "inventory": {
+      "stockQuantity": 15,
+      "lowStockThreshold": 5,
+      "allowBackorder": false,
+      "trackInventory": true
+    },
+    "seo": {
+      "metaTitle": {
+        "en": "",
+        "ur": ""
+      },
+      "metaDescription": {
+        "en": "",
+        "ur": ""
+      },
+      "keywords": []
+    },
+    "stats": {
+      "viewCount": 21,
+      "orderCount": 7,
+      "rating": 5,
+      "reviewCount": 0,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      }
+    },
+    "isActive": true,
+    "isFeatured": false,
+    "isNewProduct": false,
+    "createdAt": "2025-12-30T12:38:01.947Z",
+    "updatedAt": "2026-01-06T09:32:16.918Z",
+    "productId": "PRD-20251230-0001",
+    "__v": 0
+  },
+  {
+    "_id": "69591aa48560be1d7d39992f",
+    "name": {
+      "en": "SP Elbow 3/4 GI",
+      "ur": "ایلبو"
+    },
+    "slug": "sp-elbow-3-4-gi",
+    "sku": "GI-SP-0001",
+    "description": {
+      "en": "SP GI fitting for mixture of deegi and iron.",
+      "ur": "ایلبو کی فٹنگ"
+    },
+    "shortDescription": {
+      "en": "",
+      "ur": ""
+    },
+    "category": "6955485a3117ec74b9b790e9",
+    "pricing": {
+      "basePrice": 101,
+      "salePrice": 92,
+      "discount": 9,
+      "taxRate": 0
+    },
+    "specifications": [],
+    "images": [
+      {
+        "url": "http://localhost:5000/uploads/products/images-1767447102023-314521716.webp",
+        "isPrimary": true,
+        "_id": "69591aa48560be1d7d399930"
+      }
+    ],
+    "dimensions": {
+      "length": 4,
+      "width": 5,
+      "height": 5,
+      "weight": 30,
+      "unit": "g"
+    },
+    "tags": [
+      "elbow",
+      "loha elbow",
+      "gi elbow",
+      "sp elbow"
+    ],
+    "brand": "",
+    "manufacturer": "",
+    "origin": "",
+    "size": "3/4",
+    "inventory": {
+      "stockQuantity": 19,
+      "lowStockThreshold": 5,
+      "allowBackorder": false,
+      "trackInventory": true
+    },
+    "seo": {
+      "metaTitle": {
+        "en": "",
+        "ur": ""
+      },
+      "metaDescription": {
+        "en": "",
+        "ur": ""
+      },
+      "keywords": []
+    },
+    "stats": {
+      "viewCount": 15,
+      "orderCount": 5,
+      "rating": 0,
+      "reviewCount": 0,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "isActive": true,
+    "isFeatured": false,
+    "isNewProduct": false,
+    "createdAt": "2026-01-03T13:33:24.503Z",
+    "updatedAt": "2026-01-06T19:32:04.142Z",
+    "productId": "PRD-20260103-0001",
+    "__v": 0
+  },
+  {
+    "_id": "695afc6e04ee39a30dc0e850",
+    "name": {
+      "en": "Steel Floor Waste",
+      "ur": "فالور ویسٹ"
+    },
+    "slug": "steel-floor-waste",
+    "sku": "RBS-BRASS-0003",
+    "description": {
+      "en": "Steel Floor Waste",
+      "ur": "اسٹیل فالور ویسٹ"
+    },
+    "shortDescription": {
+      "en": "",
+      "ur": ""
+    },
+    "category": "695afaff04ee39a30dc0e818",
+    "pricing": {
+      "basePrice": 291,
+      "salePrice": 281,
+      "discount": 3,
+      "taxRate": 0
+    },
+    "specifications": [],
+    "images": [
+      {
+        "url": "http://localhost:5000/uploads/products/images-1767570478903-766399536.webp",
+        "isPrimary": true,
+        "_id": "695afc6e04ee39a30dc0e851"
+      }
+    ],
+    "dimensions": {
+      "length": 6,
+      "width": 6,
+      "height": 6,
+      "weight": 180,
+      "unit": "g"
+    },
+    "tags": [],
+    "brand": "Imran Steel",
+    "manufacturer": "",
+    "origin": "",
+    "size": "6x6",
+    "inventory": {
+      "stockQuantity": 20,
+      "lowStockThreshold": 5,
+      "allowBackorder": false,
+      "trackInventory": true
+    },
+    "seo": {
+      "metaTitle": {
+        "en": "",
+        "ur": ""
+      },
+      "metaDescription": {
+        "en": "",
+        "ur": ""
+      },
+      "keywords": []
+    },
+    "stats": {
+      "viewCount": 1,
+      "orderCount": 4,
+      "rating": 0,
+      "reviewCount": 0,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "isActive": true,
+    "isFeatured": false,
+    "isNewProduct": false,
+    "createdAt": "2026-01-04T23:49:02.646Z",
+    "updatedAt": "2026-01-06T09:31:37.394Z",
+    "productId": "PRD-20260104-0001",
+    "__v": 0
+  },
+  {
+    "_id": "695b07a55b8addfb0135d960",
+    "name": {
+      "en": "CP Nozel 1\"",
+      "ur": "سی پی نوزل"
+    },
+    "slug": "cp-nozel-1",
+    "sku": "RBS-BRASS-0004",
+    "description": {
+      "en": "CP Nozel 1\"",
+      "ur": "سی پی نوزل"
+    },
+    "shortDescription": {
+      "en": "",
+      "ur": ""
+    },
+    "category": "695422474376467edd18f99c",
+    "pricing": {
+      "basePrice": 159,
+      "salePrice": 149,
+      "discount": 6,
+      "taxRate": 0
+    },
+    "specifications": [],
+    "images": [
+      {
+        "url": "http://localhost:5000/uploads/products/images-1767573310739-967530133.webp",
+        "isPrimary": true,
+        "_id": "695b07a55b8addfb0135d961"
+      }
+    ],
+    "dimensions": {
+      "length": 1,
+      "width": 0.6,
+      "height": 1,
+      "weight": 45,
+      "unit": "g"
+    },
+    "tags": [],
+    "brand": "RBS",
+    "manufacturer": "",
+    "origin": "",
+    "size": "1",
+    "inventory": {
+      "stockQuantity": 36,
+      "lowStockThreshold": 5,
+      "allowBackorder": false,
+      "trackInventory": true
+    },
+    "seo": {
+      "metaTitle": {
+        "en": "",
+        "ur": ""
+      },
+      "metaDescription": {
+        "en": "",
+        "ur": ""
+      },
+      "keywords": []
+    },
+    "stats": {
+      "viewCount": 1,
+      "orderCount": 2,
+      "rating": 0,
+      "reviewCount": 0,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "isActive": true,
+    "isFeatured": false,
+    "isNewProduct": false,
+    "createdAt": "2026-01-05T00:36:53.985Z",
+    "updatedAt": "2026-01-05T23:17:44.321Z",
+    "productId": "PRD-20260105-0001",
+    "__v": 0
+  },
+  {
+    "_id": "695d1f004abf2d8e4ec8bb61",
+    "name": {
+      "en": "CP Nozel 1-1/2\"",
+      "ur": "سی پی نوزل 1-1/2"
+    },
+    "slug": "cp-nozel-1-1-2",
+    "sku": "CPN-1-1/2-CH",
+    "description": {
+      "en": "CP Nozel 1-1/2\"",
+      "ur": "سی پی نوزل 1-1/2"
+    },
+    "category": "695422474376467edd18f99c",
+    "pricing": {
+      "basePrice": 170,
+      "salePrice": 160,
+      "discount": 6,
+      "taxRate": 0
+    },
+    "specifications": [],
+    "images": [
+      {
+        "url": "http://localhost:5000/uploads/products/images-1767710228145-623312646.webp",
+        "isPrimary": true,
+        "_id": "695d1f004abf2d8e4ec8bb62"
+      }
+    ],
+    "dimensions": {
+      "unit": "cm"
+    },
+    "tags": [],
+    "brand": "RBS",
+    "size": "1-1/2\"",
+    "inventory": {
+      "stockQuantity": 49,
+      "lowStockThreshold": 10,
+      "allowBackorder": false,
+      "trackInventory": true
+    },
+    "seo": {
+      "keywords": []
+    },
+    "stats": {
+      "viewCount": 0,
+      "orderCount": 0,
+      "rating": 0,
+      "reviewCount": 0,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "isActive": true,
+    "isFeatured": true,
+    "isNewProduct": false,
+    "createdAt": "2026-01-06T14:41:04.117Z",
+    "updatedAt": "2026-01-06T14:41:04.117Z",
+    "productId": "PRD-20260106-0001",
+    "__v": 0
+  },
+  {
+    "_id": "695d611e4abf2d8e4ec8bc27",
+    "name": {
+      "en": "CP Nozel 2\"",
+      "ur": "سی پی نوزل \"2"
+    },
+    "slug": "cp-nozel-2",
+    "sku": "RBS-CP-001",
+    "description": {
+      "en": "CP Nozel 2\"",
+      "ur": "سی پی نوزل \"2"
+    },
+    "category": "695422474376467edd18f99c",
+    "pricing": {
+      "basePrice": 230,
+      "discount": 0,
+      "taxRate": 0
+    },
+    "specifications": [],
+    "images": [
+      {
+        "url": "http://localhost:5000/uploads/products/images-1767727289223-565135572.webp",
+        "isPrimary": true,
+        "_id": "695d611e4abf2d8e4ec8bc28"
+      }
+    ],
+    "dimensions": {
+      "length": 2,
+      "weight": 40,
+      "unit": "g"
+    },
+    "tags": [],
+    "brand": "RBS",
+    "size": "2\"",
+    "inventory": {
+      "stockQuantity": 17,
+      "lowStockThreshold": 10,
+      "allowBackorder": false,
+      "trackInventory": true
+    },
+    "seo": {
+      "keywords": []
+    },
+    "stats": {
+      "viewCount": 0,
+      "orderCount": 0,
+      "rating": 0,
+      "reviewCount": 0,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "isActive": true,
+    "isFeatured": false,
+    "isNewProduct": false,
+    "createdAt": "2026-01-06T19:23:10.182Z",
+    "updatedAt": "2026-01-06T19:23:10.182Z",
+    "productId": "PRD-20260106-0002",
+    "__v": 0
+  },
+  {
+    "_id": "695d61e44abf2d8e4ec8bc45",
+    "name": {
+      "en": "CP Nozel 3\"",
+      "ur": "سی پی نوزل \"3"
+    },
+    "slug": "cp-nozel-3",
+    "sku": "RBS-CP-002",
+    "description": {
+      "en": "CP Nozel 3\"",
+      "ur": "سی پی نوزل \"3"
+    },
+    "category": "695422474376467edd18f99c",
+    "pricing": {
+      "basePrice": 295,
+      "salePrice": 288,
+      "discount": 2,
+      "taxRate": 0
+    },
+    "specifications": [],
+    "images": [
+      {
+        "url": "http://localhost:5000/uploads/products/images-1767727527855-641935309.webp",
+        "isPrimary": true,
+        "_id": "695d61e44abf2d8e4ec8bc46"
+      }
+    ],
+    "dimensions": {
+      "length": 3,
+      "height": 3,
+      "weight": 50,
+      "unit": "g"
+    },
+    "tags": [],
+    "brand": "RBS",
+    "size": "3\"",
+    "inventory": {
+      "stockQuantity": 29,
+      "lowStockThreshold": 10,
+      "allowBackorder": false,
+      "trackInventory": true
+    },
+    "seo": {
+      "keywords": []
+    },
+    "stats": {
+      "viewCount": 0,
+      "orderCount": 0,
+      "rating": 0,
+      "reviewCount": 0,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "isActive": true,
+    "isFeatured": false,
+    "isNewProduct": false,
+    "createdAt": "2026-01-06T19:26:28.199Z",
+    "updatedAt": "2026-01-06T19:26:28.199Z",
+    "productId": "PRD-20260106-0003",
+    "__v": 0
+  },
+  {
+    "_id": "695d62904abf2d8e4ec8bc6f",
+    "name": {
+      "en": "CP Nozel 4\"",
+      "ur": "سی پی نوزل \"4"
+    },
+    "slug": "cp-nozel-4",
+    "sku": "RBS-CP-003",
+    "description": {
+      "en": "CP Nozel 4\"",
+      "ur": "سی پی نوزل \"4"
+    },
+    "category": "695422474376467edd18f99c",
+    "pricing": {
+      "basePrice": 380,
+      "salePrice": 375,
+      "discount": 1,
+      "taxRate": 0
+    },
+    "specifications": [],
+    "images": [
+      {
+        "url": "http://localhost:5000/uploads/products/images-1767727717373-718438806.webp",
+        "isPrimary": true,
+        "_id": "695d62904abf2d8e4ec8bc70"
+      }
+    ],
+    "dimensions": {
+      "length": 4,
+      "height": 4,
+      "weight": 65,
+      "unit": "g"
+    },
+    "tags": [],
+    "brand": "RBS",
+    "size": "4\"",
+    "inventory": {
+      "stockQuantity": 16,
+      "lowStockThreshold": 10,
+      "allowBackorder": false,
+      "trackInventory": true
+    },
+    "seo": {
+      "keywords": []
+    },
+    "stats": {
+      "viewCount": 0,
+      "orderCount": 0,
+      "rating": 0,
+      "reviewCount": 0,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "isActive": true,
+    "isFeatured": false,
+    "isNewProduct": false,
+    "createdAt": "2026-01-06T19:29:20.595Z",
+    "updatedAt": "2026-01-06T19:29:20.595Z",
+    "productId": "PRD-20260106-0004",
+    "__v": 0
+  },
+  {
+    "_id": "695d63f94abf2d8e4ec8bcba",
+    "name": {
+      "en": "SP Elbow 1\" GI",
+      "ur": "ایلبو"
+    },
+    "slug": "sp-elbow-1-gi",
+    "sku": "GI-SP-0002",
+    "description": {
+      "en": "SP Elbow 3/4 GI",
+      "ur": "ایلبو"
+    },
+    "category": "6955485a3117ec74b9b790e9",
+    "pricing": {
+      "basePrice": 150,
+      "salePrice": 140,
+      "discount": 7,
+      "taxRate": 0
+    },
+    "specifications": [],
+    "images": [
+      {
+        "url": "http://localhost:5000/uploads/products/images-1767727975282-188987391.webp",
+        "isPrimary": true,
+        "_id": "695d63f94abf2d8e4ec8bcbb"
+      }
+    ],
+    "dimensions": {
+      "length": 2.5,
+      "width": 1,
+      "height": 3,
+      "weight": 70,
+      "unit": "g"
+    },
+    "tags": [],
+    "brand": "China",
+    "size": "1\"",
+    "inventory": {
+      "stockQuantity": 61,
+      "lowStockThreshold": 10,
+      "allowBackorder": false,
+      "trackInventory": true
+    },
+    "seo": {
+      "keywords": []
+    },
+    "stats": {
+      "viewCount": 0,
+      "orderCount": 0,
+      "rating": 0,
+      "reviewCount": 0,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "isActive": true,
+    "isFeatured": false,
+    "isNewProduct": false,
+    "createdAt": "2026-01-06T19:35:21.908Z",
+    "updatedAt": "2026-01-06T19:35:21.908Z",
+    "productId": "PRD-20260106-0005",
+    "__v": 0
+  },
+  {
+    "_id": "695d69cb631fc70c1c6d1ec6",
+    "name": {
+      "en": "SP Elbow 1/2 GI",
+      "ur": "ایلبو 1/2"
+    },
+    "slug": "sp-elbow-1-2-gi",
+    "sku": "GI-SP-0003",
+    "description": {
+      "en": "SP Elbow 1/2 GI",
+      "ur": "ایلبو 1/2"
+    },
+    "category": "6955485a3117ec74b9b790e9",
+    "pricing": {
+      "basePrice": 65,
+      "salePrice": 62,
+      "discount": 5,
+      "taxRate": 0
+    },
+    "specifications": [],
+    "images": [
+      {
+        "url": "http://localhost:5000/uploads/products/images-1767729603217-480903528.webp",
+        "isPrimary": true,
+        "_id": "695d69cb631fc70c1c6d1ec7"
+      }
+    ],
+    "dimensions": {
+      "length": 2,
+      "width": 0.5,
+      "height": 2.5,
+      "weight": 25,
+      "unit": "g"
+    },
+    "tags": [],
+    "brand": "China",
+    "size": "1/2\"",
+    "inventory": {
+      "stockQuantity": 105,
+      "lowStockThreshold": 10,
+      "allowBackorder": false,
+      "trackInventory": true
+    },
+    "seo": {
+      "keywords": []
+    },
+    "stats": {
+      "viewCount": 0,
+      "orderCount": 0,
+      "rating": 0,
+      "reviewCount": 0,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "isActive": true,
+    "isFeatured": false,
+    "isNewProduct": false,
+    "createdAt": "2026-01-06T20:00:11.466Z",
+    "updatedAt": "2026-01-06T20:00:11.466Z",
+    "productId": "PRD-20260106-0006",
+    "__v": 0
+  }
+]
